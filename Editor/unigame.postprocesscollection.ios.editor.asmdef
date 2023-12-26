@@ -1,5 +1,6 @@
 {
     "name": "unigame.postprocesscollection.ios.editor",
+    "rootNamespace": "",
     "references": [],
     "includePlatforms": [
         "iOS"
@@ -9,6 +10,10 @@
     "overrideReferences": false,
     "precompiledReferences": [],
     "autoReferenced": true,
-    "defineConstraints": [],
-    "versionDefines": []
+    "defineConstraints": [
+        "UNITY_IOS",
+        "UNITY_IOS_ENABLED"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
 }

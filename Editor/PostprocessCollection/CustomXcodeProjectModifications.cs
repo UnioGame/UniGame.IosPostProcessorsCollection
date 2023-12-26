@@ -4,7 +4,6 @@ using UnityEngine;
 
 namespace PostprocessCollection
 {
-
     [CreateAssetMenu(fileName = "New_XCode_Modification", menuName = "XCode Modification", order = 51)]
     public class CustomXcodeProjectModifications : ScriptableObject
     {
@@ -15,5 +14,4 @@ namespace PostprocessCollection
         [SerializeField] public DefaultAsset EntitlementsFile;
         [SerializeField] public DefaultAsset NewDelegateFile;
     }
-    
 }
